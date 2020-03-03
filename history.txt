@@ -1,0 +1,30 @@
+  344  ls
+  345  head biarritz.csv 
+  346  rm biarritz.csv 
+  347  ls
+  348  head php_france_2019.csv 
+  349  grep -E 'Biarritz.*Toulouse' wilders.csv > biarritz.csv
+  350  head biarritz.csv 
+  351  ls
+  352  rm biarritz.csv 
+  353  ls
+  354  grep JavaScript wilders.csv > javascript.csv
+  355  ls
+  356  head javascript.csv 
+  357  grep Toulouse javascript.csv > toulouse.csv
+  358  grep Biarritz javascript.csv > biarritz.csv
+  359  head biarritz.csv 
+  360  head toulouse.csv 
+  361  cat biarritz.csv toulouse.csv > javascript_biarritz_toulouse.csv
+  362  head javascript_biarritz_toulouse.csv 
+  363  history | tail > history.txt
+  364  ls
+  365  cat history.txt 
+  366  rm history.txt 
+  367  ls
+  368  history | tail 10 > history.txt
+  369  history | tail 10 > history.tx
+  370  history | tail -5 > history.txt
+  371  ls
+  372  rm history.tx
+  373  history | tail -30 > history.txt
